@@ -6,7 +6,7 @@ describe Spree::Admin::BanksController do
   let(:roles) { [role] }
 
   before(:each) do
-    @user = mock_model(Spree::User, :generate_spree_api_key! => false)
+    @user = mock_model(User, :generate_spree_api_key! => false)
     @user.stub_chain(:roles, :includes).and_return([])
     @user.stub(:has_spree_role?).with('admin').and_return(true)
     controller.stub(:spree_user_signed_in?).and_return(true)

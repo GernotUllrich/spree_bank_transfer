@@ -3,7 +3,7 @@ require 'spec_helper'
 describe Spree::ContentController do
   before do
     controller.stub(:authenticate_spree_user!).and_return(true)
-    @user = mock_model(Spree::User, :generate_spree_api_key! => false, :last_incomplete_spree_order => nil)
+    @user = mock_model(User, :generate_spree_api_key! => false, :last_incomplete_spree_order => nil)
     controller.stub(:spree_current_user).and_return(@user)
   end
 
