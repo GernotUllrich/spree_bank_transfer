@@ -20,9 +20,9 @@ en:
     order_mailer:
       confirm_email:
         dear_customer: Dear Customer,
-      our_bank_data: Please use the followin Bank Data for your money transfer:
+      our_bank_data: "Please use the followin Bank Data for your money transfer:"
     our_action: We activate your subscription as soon as we get some kind of receipt.
-    our_bank_data: Please send Money using the following IBAN bank data:
+    our_bank_data: "Please send Money using the following IBAN bank data:"
     you_accept_our_agb: "With your order you will implicitely accept our <a href=/html/agb>Terms & Conditions</a>"
   activerecord:
     models:

@@ -1,7 +1,7 @@
 de:
   spree:
     account_no: Account Nr.
-    add_details: Füge Details hinzu:
+    add_details: "Füge Details hinzu:"
     additional_details: Weitere Details
     back_to_banks_list: Zurück zur Bankenliste
     banks: Bankverbindungen
@@ -20,9 +20,9 @@ de:
     order_mailer:
       confirm_email:
         dear_customer: Sehr geehrter Kunde,
-      our_bank_data: Bitte überweisen Sie an folgende Bankverbindung(en):
+      our_bank_data: "Bitte überweisen Sie an folgende Bankverbindung(en):"
     our_action: Wir schalten frei, sobald wir einen Zahlungsbeleg erhalten.
-    our_bank_data: Bitte überweisen Sie an folgende IBAN Bankverbindung(en):
+    our_bank_data: "Bitte überweisen Sie an folgende IBAN Bankverbindung(en):"
     you_accept_our_agb: "Mit Ihrer Bestellung stimmmen Sie implizit unseren <a href=/html/agb>AGB</a> zu"
   activerecord:
     models:
