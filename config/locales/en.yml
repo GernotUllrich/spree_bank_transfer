@@ -17,6 +17,10 @@ en:
     payment_successfully_updated: Payment successfully updated
     payment_reference_details: Bank Transfer Payment Reference Details
     transaction_reference_no: Transaction Reference No
+    order_mailer:
+      confirm_email:
+        dear_customer: Dear Customer,
+    our_bank_data: Our bank data:
   activerecord:
     models:
       spree/bank:

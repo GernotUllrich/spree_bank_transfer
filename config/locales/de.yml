@@ -1,0 +1,28 @@
+de:
+  spree:
+    account_no: Account Nr.
+    add_details: Füge Details hinzu:
+    additional_details: Weitere Details
+    back_to_banks_list: Zurück zur Bankenliste
+    banks: Bankverbindungen
+    bank_name: Bank Name
+    confirm_details_submit: Vist Du sicher, dass Du diese Details speichern möchtest? Du kannst diese Details später nicht mehr ändern. Klicke 'OK' zur Bestätigung.
+    deactivate: Deaktivieren
+    deposited_on: Überwiesen an
+    how_bank_transfer_works: Wie funktionieren Banküberweisungen?
+    listing_banks: Listen der Bankverbindungen
+    new_bank: Neue Bankverbindun
+    only_show_orders_with_bank_transfer_payment_reference_number: Zeige nur Bestellungen mit einer Bank Transfer Referenznummer
+    payment_not_found: Payment nicht gefunden
+    payment_successfully_updated: Payment erfolgreich aktualisiert
+    payment_reference_details: Bank Transfer Payment Referenzdetails
+    transaction_reference_no: Transactions Referenznummer
+    order_mailer:
+      confirm_email:
+        dear_customer: Lieber Kunde,
+    our_bank_data: Unsere Bankverbindungen:
+  activerecord:
+    models:
+      spree/bank:
+        one: Bankvervindung
+        other: Bankverbindungen
