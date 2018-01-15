@@ -21,7 +21,7 @@ de:
       confirm_email:
         dear_customer: Sehr geehrter Kunde,
       our_bank_data: "Bitte überweisen Sie an folgende Bankverbindung(en):"
-    our_action: Wir schalten frei, sobald wir einen Zahlungsbeleg erhalten.
+    our_action: Wir schalten frei, sobald wir einen Zahlungsbeleg erhalten haben.
     our_bank_data: "Bitte überweisen Sie an folgende IBAN Bankverbindung(en):"
     you_accept_our_agb: "Mit Ihrer Bestellung stimmmen Sie implizit unseren <a href=/html/agb>AGB</a> zu"
   activerecord:
